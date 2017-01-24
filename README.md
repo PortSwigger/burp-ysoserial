@@ -4,8 +4,8 @@ Download the jar file here: [ysoserial.jar](https://github.com/summitt/burp-ysos
 
 There are 3 ways to run this [Burp](https://portswigger.net/) extension. 
 
- 1. Generate a payload from the YSOSERIAL Tab. You can then copy and paste it into other tabs in [Burp](https://portswigger.net/).(Not ideal)
- 1. Generate a payload from the YSOSERIAL Tab. In another tab you can select the text you want to replace and right click. You have 3 options to replace.
+ 1. Generate a payload from the Java Serialized Payloads Tab. You can then copy and paste it into other tabs in [Burp](https://portswigger.net/).(Not ideal)
+ 1. Generate a payload from the Java Serialized Payloads Tab. In another tab you can select the text you want to replace and right click. You have 3 options to replace.
    1. Raw - This will replace your selected text with an unencoded version of the payload. This is raw binary/hex.
    1. B64 - This payload will replace your selected text with a base64 encoded version.
    1. URLEnc - This will replace your selected text with a URL encoded and base64 encoded payload. Ideal for web type applications

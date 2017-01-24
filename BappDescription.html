@@ -1,25 +1,25 @@
-<p>This extension generates various Java serialized payloads designed to execute 
+<p>This extension generates various Java serialized payloads designed to execute
 OS commands. There are three ways to use the extension:</p>
 <ul>
-	<li>Generate a payload from the YSOSERIAL Tab. You can then copy and paste 
+	<li>Generate a payload from the Java Serialized Payloads Tab. You can then copy and paste
 	it into other tabs in Burp.<br><br></li>
-	<li>Generate a payload from the YSOSERIAL Tab. In another tab you can select 
-	the text you want to replace and right click. You have three encoding 
+	<li>Generate a payload from the Java Serialized Payloads Tab. In another tab you can select
+	the text you want to replace and right click. You have three encoding
 	options:<br><br><ul>
-		<li>Raw - This will replace your selected text with a raw unencoded 
+		<li>Raw - This will replace your selected text with a raw unencoded
 		version of the payload. </li>
-		<li>B64 - This will replace your selected text with a Base64 encoded 
+		<li>B64 - This will replace your selected text with a Base64 encoded
 		version. </li>
-		<li>URLEnc - This will replace your selected text with a URL-encoded and 
+		<li>URLEnc - This will replace your selected text with a URL-encoded and
 		base64 encoded payload.<br><br></li>
 	</ul>
 	</li>
-	<li>You can use inline commands to replace your text with a payload that 
+	<li>You can use inline commands to replace your text with a payload that
 	contains your command. For example you can enter text in Repeater like: <br>
-	<br>$(CC1|ping -c1 8.8.8.8) <br><br>Select the above text and right click 
-	any of the Java Serialized Payload Options and it will replace your command 
-	with a payload containing that command. <br><br>The first parameter before 
-	the pipe in the above statement is the version of the exploit. You can enter 
+	<br>$(CC1|ping -c1 8.8.8.8) <br><br>Select the above text and right click
+	any of the Java Serialized Payload Options and it will replace your command
+	with a payload containing that command. <br><br>The first parameter before
+	the pipe in the above statement is the version of the exploit. You can enter
 	any of the following: <br> <br>
 	<ul>
 		<li>CC1 or CollectionCommons1 </li>

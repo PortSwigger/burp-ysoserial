@@ -29,7 +29,7 @@ public class BurpExtender implements IBurpExtender, ITab, IContextMenuFactory
     	
     	cb = callbacks;
     	helpers = cb.getHelpers();
-    	cb.setExtensionName("YSOSERIAL");
+    	cb.setExtensionName("Java Serialized Payloads");
     	cb.registerContextMenuFactory(this);
     	SwingUtilities.invokeLater(new Runnable(){
 
@@ -48,7 +48,7 @@ public class BurpExtender implements IBurpExtender, ITab, IContextMenuFactory
     
     //@Override
     public String getTabCaption(){
-    	return "YSOSERIAL";
+    	return "Java Serialized Payloads";
     }
 	//@Override
 	public Component getUiComponent() {
