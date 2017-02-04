@@ -115,7 +115,7 @@ public class ysoserialFrame extends JPanel {
 		
 		JScrollPane scrollPane = new JScrollPane();
 		scrollPane.setVerticalScrollBarPolicy(ScrollPaneConstants.VERTICAL_SCROLLBAR_ALWAYS);
-		scrollPane.setBounds(33, 98, 662, 681);
+		scrollPane.setBounds(33, 98, 662, 481);
 		add(scrollPane);
 		
 		outtxt = new JTextPane();
