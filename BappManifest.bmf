@@ -1,6 +1,7 @@
 Uuid: bc737909a5d742eab91544705c14d34f
 ExtensionType: 1
 Name: Java Serialized Payloads
+RepoName: java-serialized-payloads
 ScreenVersion: 0.0.2
 SerialVersion: 1
 MinPlatformVersion: 0
