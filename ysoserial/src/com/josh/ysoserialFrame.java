@@ -120,6 +120,7 @@ public class ysoserialFrame extends JPanel {
 		
 		outtxt = new JTextPane();
 		//outtxt.setLineWrap(true);
+		outtxt.putClientProperty("html.disable", null);
 		outtxt.setContentType("text/html");
 		scrollPane.setViewportView(outtxt);
 		
