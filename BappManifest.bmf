@@ -2,11 +2,12 @@ Uuid: bc737909a5d742eab91544705c14d34f
 ExtensionType: 1
 Name: Java Serialized Payloads
 RepoName: java-serialized-payloads
-ScreenVersion: 0.0.2
-SerialVersion: 1
+ScreenVersion: 0.0.2a
+SerialVersion: 2
 MinPlatformVersion: 0
 ProOnly: False
 Author: Josh Summitt
 ShortDescription: Generates Java serialized payloads to execute OS commands.
 EntryPoint: ysoserial/target/ysoserial-0.0.2-SNAPSHOT-all.jar
 BuildCommand: cd ysoserial && mvn package -DskipTests=true -Dmaven.javadoc.skip=true -B
+SupportedProducts: Pro, Community
